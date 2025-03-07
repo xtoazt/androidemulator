@@ -3,7 +3,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
-const nggUrl = 'https://spotify.com';
+const nggUrl = 'https://waves-movies-two.vercel.app';
 
 const proxy = createProxyMiddleware({
   target: nggUrl,
